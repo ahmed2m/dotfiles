@@ -1,5 +1,3 @@
-# Zordsdavini dotfiles
-
 Place to save configs and use with fork of [LARBS](https://github.com/LukeSmithxyz/LARBS) to restore my environment
 
 To get Qtile and related stuff around in place, run `sudo larbs.sh -r https://github.com/zordsdavini/dotfiles.git -p https://raw.githubusercontent.com/zordsdavini/dotfiles/master/progs.csv`. Later remove `.git` and other trash files from home.
