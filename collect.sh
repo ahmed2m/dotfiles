@@ -15,6 +15,6 @@ done < ./list
 echo Commiting...
 git add .
 git commit -a -m "Autocommit: `date`"
-# git push
+git push
 
 echo Done.
