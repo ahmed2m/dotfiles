@@ -1,0 +1,35 @@
+swipe:
+  3:
+    left:
+      #workspace: 'prev'
+      command: "xdotool key super+ctrl+Right"
+      #threshold: 1
+      interval: 0.3
+    right:
+      #workspace: 'next'
+      command: "xdotool key super+ctrl+Left"
+      #threshold: 0.5
+      interval: 0.3
+
+    up:
+      command: "xdotool key XF86AudioRaiseVolume"
+      threshold: 0.1
+      interval: 0.1
+    down:
+      command: "xdotool key XF86AudioLowerVolume"
+      threshold: 0.1
+      interval: 0.1
+  4:
+    left:
+      #command: "xdotool key ctrl+alt+Down" # Switch to next workspace
+    right:
+      #command: "xdotool key ctrl+alt+Up" # Switch to previous workspace
+    up:
+      command: "konsole"
+    down:
+      #command: "xdotool key ctrl+alt+Up" # Switch to previous workspace
+pinch:
+  in:
+    command: "xdotool keydown ctrl click 4 keyup ctrl" # Zoom in
+  out:
+    command: "xdotool keydown ctrl click 5 keyup ctrl" # Zoom out

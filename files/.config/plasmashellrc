@@ -1,0 +1,82 @@
+[DownloadDialog Settings]
+Height 768=494
+Width 1366=700
+
+[KFileDialog Settings]
+Recent Files[$e]=ocs-url-3.1.0-1-x86_64.pkg.tar.xz,file:$HOME/Downloads/ocs-url-3.1.0-1-x86_64.pkg.tar.xz
+Recent URLs[$e]=file:$HOME/Downloads/
+detailViewIconSize=0
+
+[KPropertiesDialog]
+Height 768=448
+Width 1366=410
+
+[PlasmaRunnerManager]
+LaunchCounts=4 services_org.qbittorrent.qBittorrent.desktop,4 services_genymotion-beta.desktop,1 services_kamera.desktop,1 baloosearch_/home/ahmed/snap/code-insiders,1 baloosearch_/home/ahmed/snap/code,5 services_bauh.desktop,1 services_dma.desktop,1 services_org.kde.yakuake.desktop,2 services_slack_slack.desktop,2 services_manjaro-settings-manager.desktop,1 services_cantata.desktop,1 services_org.manjaro.pamac.manager.desktop,1 services_vivaldi-stable.desktop,1 services_org.kde.partitionmanager.desktop,1 services_yandex-browser-beta.desktop,2 services_code_code.desktop,2 services_pavucontrol.desktop,1 services_org.kde.kate.desktop,1 services_bauh_tray.desktop,2 services_keys.desktop,2 services_autostart.desktop,1 services_virtualbox.desktop,3 services_systemsettings.desktop,6 services_code-insiders_code-insiders.desktop
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 1][Defaults]
+thickness=30
+
+[PlasmaViews][Panel 1][Horizontal1024]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1152]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1200]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1280]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1366]
+thickness=30
+
+[PlasmaViews][Panel 1][Horizontal1440]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1600]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1680]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1900]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1916]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1920]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal2048]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal800]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal864]
+thickness=45
+
+[PlasmaViews][Panel 45][Defaults]
+thickness=27
+
+[PlasmaViews][Panel 45][Horizontal1366]
+thickness=27
+
+[PlasmaViews][Panel 47][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 47][Vertical768]
+thickness=36
+
+[ScreenConnectors]
+0=eDP1
+1=HDMI-1
+2=:0.0
+3=HDMI1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js

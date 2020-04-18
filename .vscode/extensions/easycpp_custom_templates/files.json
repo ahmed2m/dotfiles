@@ -1,0 +1,26 @@
+{
+    "templates": {
+        "mohamadeen template": {
+            "directories": [
+                ".vscode",
+                "bin",
+                "include",
+                "make",
+                "lib"
+            ],
+            "files": {
+                "shared/Makefile": "make/Makefile",
+                "shared/tasks.json": ".vscode/tasks.json",
+                "hello-world/main.cpp": "main.cpp",
+                "gcc/launch.json": ".vscode/launch.json"
+            },
+            "blankFiles": [
+                "in.txt",
+                "out.txt"
+            ],
+            "openFiles": [
+                "main.cpp"
+            ]
+        }
+    }
+}
