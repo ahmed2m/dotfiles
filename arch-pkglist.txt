@@ -6,4 +6,6 @@ neofetch
 qbittorrent
 rofi
 yarn
-yay-bin
+npm
+yay
+fusuma
