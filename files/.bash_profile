@@ -9,5 +9,11 @@ export PATH=~/.npm-global/bin:$PATH
 alias ratioghost="wish /home/ahmed/Public/ratioghost/rghost.vfs/main.tcl"
 export BROWSER=vivaldi-stable
 
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 

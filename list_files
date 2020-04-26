@@ -4,3 +4,6 @@
 ~/.config/kglobalshortcutsrc
 ~/.config/plasmashellrc
 ~/.config/kdeglobals
+~/.config/plasma-org.kde.plasma.desktop-appletsrc
+~/.config/kwinrc
+~/.config/Code/User/keybindings.json
