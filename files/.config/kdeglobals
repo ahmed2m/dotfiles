@@ -108,8 +108,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=856,592
-History Items[$e]=file:$HOME/Downloads/MoeDark,file:$HOME/Downloads/moe-theme-master/kvantum/Moe,file:$HOME/Downloads/moe-theme-master/kvantum,file:///run/media/ahmed/01D5F9587AA52820/OG,file:///mnt/D/vbox,file:///mnt/D,file:///mnt/E/HAHA,file:$HOME/Music
+DirSelectDialog Size=882,598
+History Items[$e]=file:$HOME/Downloads,file:$HOME/Music
 
 [Emoticons]
 emoticonsTheme=EmojiOne
@@ -139,7 +139,7 @@ widgetStyle=kvantum-dark
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5

@@ -14,6 +14,8 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
-
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+alias nvsettings='optirun -b none nvidia-settings -c :8'
+alias wgstr="sudo systemctl start wg-quick@laptop"
+alias wgstp="sudo systemctl stop wg-quick@laptop"
+complete -d cd
 
