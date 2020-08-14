@@ -18,10 +18,17 @@ for ((c = 1; c <= $NUMBER; c++)); do
     sinks+=("$sink_string")
 done
 
-# remove old mono channels
+# remove old mono sinks
 $(pactl unload-module module-remap-sink)
 
+
+sink_index="0"
 for sink in "${sinks[@]}"; do
-    echo -e "Adding mono sink for $sink\n"
+    echo -e "Adding mono sink for $sink"
     $(pacmd load-module module-remap-sink sink_name=mono-$sink master=$sink channels=2 channel_map=mono,mono)
 done
+
+# set default sink with the newest added sink
+# `xargs echo -n` to remove the trailing spaces 
+sink_index=$(pacmd list-sinks | grep index: | tail -1 | xargs echo -n | cut -d ":" -f2 | xargs echo -n)
+$(pacmd set-default-sink $sink_index)

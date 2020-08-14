@@ -1,5 +1,5 @@
 [$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,kwin.upd:animation-speed,icons_remove_effects.upd:IconsRemoveEffects
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,kwin.upd:animation-speed,icons_remove_effects.upd:IconsRemoveEffects,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
 
 [ColorEffects:Disabled]
 ChangeSelectionColor=
@@ -108,8 +108,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=882,598
-History Items[$e]=file:$HOME/Downloads,file:$HOME/Music
+DirSelectDialog Size=856,592
+History Items[$e]=file:///mnt/E/HAHA/Movies,file:///mnt/D/F/level 4 2019/Second-Semester/MIS/Management Information system,file:///run/media/ahmed/nvme-fun/Games,file:///mnt/E/HAHA,file:$HOME/Downloads/MoeDark,file:$HOME/Downloads/moe-theme-master/kvantum/Moe,file:$HOME/Downloads/moe-theme-master/kvantum,file:///run/media/ahmed/01D5F9587AA52820/OG,file:///mnt/D/vbox,file:///mnt/D,file:$HOME/Music
 
 [Emoticons]
 emoticonsTheme=EmojiOne
@@ -118,7 +118,7 @@ parseMode=2
 [General]
 BrowserApplication=vivaldi-stable.desktop
 ColorScheme=BreezeDark
-Name=Moe
+Name=Breeze Dark
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=Noto Mono,10,-1,5,50,0,0,0,0,0
@@ -126,15 +126,15 @@ shadeSortColumn=true
 toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=McMojave-circle-dark
+Theme=WhiteSur-dark
 
 [KDE]
-LookAndFeelPackage=Moe
+LookAndFeelPackage=org.kde.breezedark.desktop
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false
-contrast=7
-widgetStyle=kvantum-dark
+contrast=4
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false

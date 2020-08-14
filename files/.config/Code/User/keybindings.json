@@ -49,5 +49,23 @@
     {
         "key": "ctrl+k up",
         "command": "-workbench.action.moveActiveEditorGroupUp"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "editor.action.marker.next",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+f8",
+        "command": "-editor.action.marker.next",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+0",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+shift+9",
+        "command": "editor.action.transformToLowercase"
     }
 ]

@@ -33,7 +33,6 @@ Number=8
 Rows=1
 
 [Effect-CoverSwitch]
-TabBox=false
 TabBoxAlternative=false
 
 [Effect-Cube]
@@ -45,7 +44,6 @@ BorderActivateSphere=9
 BorderActivate=9
 
 [Effect-FlipSwitch]
-TabBox=false
 TabBoxAlternative=false
 
 [Effect-MagicLamp]
@@ -90,6 +88,8 @@ LongitudeAuto=31.2852
 NightTemperature=1000
 
 [Plugins]
+coverswitchEnabled=true
+flipswitchEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_squashEnabled=false
 magiclampEnabled=true
@@ -100,18 +100,14 @@ PopupHideDelay=500
 TextOnly=true
 
 [TabBox]
-ActivitiesMode=1
-ApplicationsMode=0
+ActivitiesMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
-DesktopMode=1
-HighlightWindows=true
-LayoutName=preview_stack
+LayoutName=informative
 MinimizedMode=0
 MultiScreenMode=0
-ShowDesktopMode=0
 ShowTabBox=true
 SwitchingMode=0
 
@@ -160,5 +156,5 @@ TitlebarDoubleClickCommand=Nothing
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-library=org.kde.sierrabreeze
-theme=Brisa
+library=org.kde.breeze
+theme=Breeze

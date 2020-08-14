@@ -2,8 +2,8 @@
 ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAAA8gAAAAEAAAAAAAAD6AAAAABk
 
 [ConfigDialog]
-Height 768=536
-Width 1366=644
+Height 768=510
+Width 1366=595
 
 [DownloadDialog Settings]
 Height 768=494
@@ -24,6 +24,9 @@ Width 1366=445
 [PlasmaRunnerManager]
 LaunchCounts=1 services_bauh_tray.desktop,1 services_msm_mhwd.desktop,5 services_bauh.desktop,2 services_zoom-client_zoom-client.desktop,1 services_virtualbox.desktop,1 services_kamera.desktop,1 services_org.kde.yakuake.desktop,2 services_autostart.desktop,4 services_genymotion-beta.desktop,1 services_dma.desktop,1 services_msm_kernel.desktop,2 services_pavucontrol.desktop,1 services_org.manjaro.pamac.manager.desktop,6 services_code-insiders_code-insiders.desktop,1 services_org.kde.partitionmanager.desktop,1 services_bluedevildevices.desktop,4 services_org.qbittorrent.qBittorrent.desktop,2 services_slack_slack.desktop,1 services_discord_discord.desktop,1 baloosearch_/home/ahmed/snap/code-insiders,3 services_code_code.desktop,1 services_devinfo.desktop,1 services_yandex-browser-beta.desktop,2 services_keys.desktop,1 services_org.kde.kinfocenter.desktop,1 services_org.kde.kcalc.desktop,1 services_slack.desktop,1 services_notable.desktop,1 services_vivaldi-stable.desktop,1 services_org.kde.kate.desktop,1 services_cantata.desktop,2 services_manjaro-settings-manager.desktop,1 baloosearch_/home/ahmed/snap/code,3 services_systemsettings.desktop
 pluginWhiteList=services,shell,bookmarks,baloosearch,locations
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
 
 [PlasmaViews][Panel 1][Defaults]
 thickness=30
@@ -126,8 +129,8 @@ thickness=36
 
 [ScreenConnectors]
 0=eDP-1
-1=:0.0
-2=HDMI-1
+1=HDMI-1
+2=:0.0
 3=HDMI1
 4=DP-1
 

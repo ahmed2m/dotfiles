@@ -17,5 +17,7 @@ alias ......="cd ../../../../.."
 alias nvsettings='optirun -b none nvidia-settings -c :8'
 alias wgstr="sudo systemctl start wg-quick@laptop"
 alias wgstp="sudo systemctl stop wg-quick@laptop"
+alias wwgstr="sudo systemctl start wg-quick@fran"
+alias wwgstp="sudo systemctl stop wg-quick@fran"
 complete -d cd
 

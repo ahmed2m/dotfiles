@@ -7,12 +7,7 @@ switch-to-activity-125a8a84-4de9-4869-b70f-d91a278c37bc=none,none,Switch to acti
 Switch keyboard layout to Arabic=none,none,Switch keyboard layout to Arabic
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch to Next Keyboard Layout=Meta+Space,none,Switch to Next Keyboard Layout
-_k_friendly_name=KDE Daemon
-
-[code_code.desktop]
-_k_friendly_name=Launch Visual Studio Code
-_launch=Ctrl+Alt+C,none,Launch Visual Studio Code
-new-empty-window=Ctrl+Alt+Shift+C,none,New Empty Window
+_k_friendly_name=Keyboard Layout Switcher
 
 [kaccess]
 Toggle Screen Reader On and Off=none,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -22,7 +17,7 @@ _k_friendly_name=Accessibility
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
 Toggle Touchpad=Touchpad Toggle\tAlt+P,Touchpad Toggle,Toggle Touchpad
-_k_friendly_name=KDE Daemon
+_k_friendly_name=Touchpad
 
 [kded5]
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Show System Activity
@@ -54,7 +49,7 @@ Lock Session=Meta+L\tCtrl+Alt+L\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,Loc
 Log Out=Ctrl+Alt+Del,none,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Reboot Without Confirmation
-_k_friendly_name=ksmserver
+_k_friendly_name=Session Management
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
@@ -219,7 +214,7 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 _k_friendly_name=Latte Dock
 activate entry 1=,Meta+1,Activate Entry 1
 activate entry 10=,Meta+0,Activate Entry 10
-activate entry 11=Meta+Z,Meta+Z,Activate Entry 11
+activate entry 11=,Meta+Z,Activate Entry 11
 activate entry 12=Meta+X,Meta+X,Activate Entry 12
 activate entry 13=Meta+C,Meta+C,Activate Entry 13
 activate entry 14=Meta+V,Meta+V,Activate Entry 14
@@ -304,6 +299,7 @@ Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decre
 Hibernate=Hibernate,Hibernate,Hibernate
 Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Increase Keyboard Brightness
 Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Increase Screen Brightness
+PowerDown=Power Down,Power Down,Power Down
 PowerOff=Power Off,Power Off,Power Off
 Sleep=none,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
@@ -322,7 +318,9 @@ activate task manager entry 6=,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
+activate widget 128=none,none,Activate Application Menu Widget
 activate widget 135=,none,Activate Application Launcher Widget
+activate widget 157=Meta+Shift+C,none,Activate Color Picker Widget
 activate widget 2=Alt+F1,none,Activate Application Launcher Widget
 activate widget 24=none,none,Activate Task Manager Widget
 activate widget 31=none,none,Activate Notes Widget
@@ -344,6 +342,15 @@ stop current activity=Meta+S,Meta+S,Stop Current Activity
 switch to next activity=none,none,Switch to Next Activity
 switch to previous activity=none,none,Switch to Previous Activity
 toggle do not disturb=Meta+Shift+D,none,Toggle do not disturb
+
+[systemsettings.desktop]
+_k_friendly_name=System Settings
+_launch=,Tools,System Settings
+
+[visual-studio-code.desktop]
+_k_friendly_name=Launch Visual Studio Code
+_launch=Ctrl+Alt+C,none,Launch Visual Studio Code
+new-empty-window=Ctrl+Alt+Shift+C,none,New Empty Window
 
 [vivaldi-stable.desktop]
 _k_friendly_name=Launch Vivaldi
