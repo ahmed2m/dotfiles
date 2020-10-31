@@ -1,7 +1,43 @@
 [ActionPlugins][0]
-MidButton;NoModifier=org.kde.paste
+MidButton;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
+
+[ActionPlugins][0][MidButton;NoModifier]
+_add panel=true
+_context=true
+_lock_screen=true
+_logout=true
+_run_command=true
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+edit mode=true
+manage activities=true
+remove=true
+run associated application=true
+
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=true
+_context=true
+_lock_screen=true
+_logout=true
+_run_command=true
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+edit mode=true
+manage activities=true
+remove=true
+run associated application=true
 
 [ActionPlugins][1]
 MidButton;NoModifier=org.kde.paste
@@ -41,23 +77,6 @@ favoritesPortedToKAstats=true
 
 [Containments][1][Applets][128][Shortcuts]
 global=
-
-[Containments][1][Applets][157]
-immutability=1
-plugin=org.kde.plasma.colorpicker
-
-[Containments][1][Applets][157][Configuration]
-PreloadWeight=100
-
-[Containments][1][Applets][157][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][Applets][157][Configuration][General]
-history=#2d2c27,#ff0000,#fca41c,#010101,#faa61a,#a49e9e,#415e77,#43b581,#fdbd39
-
-[Containments][1][Applets][157][Shortcuts]
-global=Meta+Shift+C
 
 [Containments][1][Applets][22]
 immutability=1
@@ -160,14 +179,14 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][ConfigDialog]
-DialogHeight=82
+DialogHeight=84
 DialogWidth=1366
 
 [Containments][1][Configuration]
 PreloadWeight=0
 
 [Containments][1][General]
-AppletOrder=128;22;23;125;30;6;157;7;8
+AppletOrder=128;22;23;125;30;6;7;8
 
 [Containments][118][Applets][119][Configuration]
 PreloadWeight=92
@@ -227,7 +246,7 @@ PreloadWeight=42
 PreloadWeight=42
 
 [Containments][129]
-ItemGeometriesHorizontal=Applet-159:128,368,192,368,0;Applet-160:320,496,192,240,0;
+ItemGeometriesHorizontal=
 activityId=125a8a84-4de9-4869-b70f-d91a278c37bc
 formfactor=0
 immutability=1
@@ -235,43 +254,6 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][129][Applets][159]
-immutability=1
-plugin=org.kde.plasma.systemmonitor
-
-[Containments][129][Applets][159][Configuration][Appearance]
-chartFace=org.kde.ksysguard.barchart
-title=Individual Core Usage
-
-[Containments][129][Applets][159][Configuration][SensorColors]
-cpu/cpu0/TotalLoad=61,174,233
-cpu/cpu1/TotalLoad=77,61,233
-cpu/cpu2/TotalLoad=206,61,233
-cpu/cpu3/TotalLoad=233,61,131
-cpu/cpu4/TotalLoad=233,120,61
-cpu/cpu5/TotalLoad=217,233,61
-cpu/cpu6/TotalLoad=88,233,61
-cpu/cpu7/TotalLoad=61,233,163
-
-[Containments][129][Applets][159][Configuration][Sensors]
-highPrioritySensorIds=["cpu/cpu0/TotalLoad","cpu/cpu1/TotalLoad","cpu/cpu2/TotalLoad","cpu/cpu3/TotalLoad","cpu/cpu4/TotalLoad","cpu/cpu5/TotalLoad","cpu/cpu6/TotalLoad","cpu/cpu7/TotalLoad"]
-totalSensors=["cpu/system/TotalLoad"]
-
-[Containments][129][Applets][160]
-immutability=1
-plugin=org.kde.plasma.systemmonitor
-
-[Containments][129][Applets][160][Configuration][Appearance]
-chartFace=org.kde.ksysguard.piechart
-title=Total CPU Use
-
-[Containments][129][Applets][160][Configuration][SensorColors]
-cpu/system/TotalLoad=61,174,233
-
-[Containments][129][Applets][160][Configuration][Sensors]
-highPrioritySensorIds=["cpu/system/TotalLoad"]
-totalSensors=["cpu/system/TotalLoad"]
 
 [Containments][129][ConfigDialog]
 DialogHeight=540
@@ -282,13 +264,14 @@ PreloadWeight=0
 
 [Containments][129][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=474
+ToolBoxButtonX=473
 iconSize=3
-positions=7,14,desktop:/hello.png,0,5,desktop:/tarbia.jpg,0,6,desktop:/2z7zup.jpg,6,0,desktop:/chrome-oejjnpnbcbjnjfjmhdcacjogpgmnonpi-Default.desktop,1,13,desktop:/slack.desktop,2,0,desktop:/steam.desktop,1,3,desktop:/Stick Fight The Game.desktop,1,4,desktop:/chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default.desktop,0,9,desktop:/chrome-jgeocpdicgmkeemopbanhokmhcgcflmi-Default.desktop,0,10,desktop:/chrome-dnmeibhohifbdbeldgdgekinledbnmnm-Default.desktop,0,11,desktop:/chrome-cobkclkhjglccpkpnncmillcijihlojc-Default.desktop,0,12,desktop:/103300248_1949967745136827_6024507114166301981_n.jpg,5,0,desktop:/chrome-ljencpkfbmahjfhepjlnokmmfipcbcld-Default.desktop,0,13,desktop:/vivaldi-stable.desktop,1,0,desktop:/notable.desktop,1,1,desktop:/discord.desktop,0,0,desktop:/org.kde.dolphin.desktop,0,1,desktop:/9f3bb6cb-721a-4f03-bc8b-03ae4c352c0e.pdf,0,2,desktop:/visual-studio-code.desktop,0,3,desktop:/image.jpeg,4,0,desktop:/War Thunder.desktop,0,4
+labelWidth=2
+positions=6,10,desktop:/vivaldi-stable.desktop,0,5,desktop:/wow.json,0,6,desktop:/chrome-ljencpkfbmahjfhepjlnokmmfipcbcld-Default.desktop,0,7,desktop:/coligo-birthday.png,0,0,desktop:/halloween.png,0,1,desktop:/notable.desktop,0,3,desktop:/discord.desktop,3,0,desktop:/slack.desktop,3,1,desktop:/chrome-cobkclkhjglccpkpnncmillcijihlojc-Default.desktop,2,0,desktop:/org.kde.dolphin.desktop,2,1,desktop:/Stick Fight The Game.desktop,5,0,desktop:/vivaldi-dnmeibhohifbdbeldgdgekinledbnmnm-Default.desktop,1,6,desktop:/9f3bb6cb-721a-4f03-bc8b-03ae4c352c0e.pdf,1,8,desktop:/chrome-oejjnpnbcbjnjfjmhdcacjogpgmnonpi-Default.desktop,4,0,desktop:/visual-studio-code.desktop,4,1,desktop:/chrome-jgeocpdicgmkeemopbanhokmhcgcflmi-Default.desktop,0,8,desktop:/lerna,0,9,desktop:/trash:⁄.desktop,1,0,desktop:/steam.desktop,0,4
 sortMode=-1
 
 [Containments][129][Wallpaper][org.kde.image][General]
-Image=file:///home/ahmed/Pictures/moedark.png
+Image=file:///home/ahmed/Pictures/wallhaven-lmljxq_1366x768.png
 
 [Containments][132]
 activityId=125a8a84-4de9-4869-b70f-d91a278c37bc
@@ -306,8 +289,12 @@ DialogWidth=720
 [Containments][132][Configuration]
 PreloadWeight=0
 
+[Containments][132][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=750
+
 [Containments][132][Wallpaper][org.kde.image][General]
-Image=file:///home/ahmed/Pictures/moedark.png
+Image=file:///usr/share/backgrounds/wallpapers-2018/sky-3189347.jpg
 
 [Containments][133]
 activityId=125a8a84-4de9-4869-b70f-d91a278c37bc
@@ -433,63 +420,63 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][139][Applets][142][Configuration]
-PreloadWeight=31
+PreloadWeight=23
 
 [Containments][139][Applets][143]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][139][Applets][143][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][139][Applets][144]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][139][Applets][144][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][139][Applets][145]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][139][Applets][145][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][139][Applets][146]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][139][Applets][146][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][139][Applets][147]
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][139][Applets][147][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][139][Applets][148]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][139][Applets][148][Configuration]
-PreloadWeight=31
+PreloadWeight=23
 
 [Containments][139][Applets][149]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][139][Applets][149][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][139][Applets][150]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][139][Applets][150][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][139][Applets][151]
 immutability=1
@@ -503,14 +490,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][139][Applets][152][Configuration]
-PreloadWeight=31
+PreloadWeight=23
 
 [Containments][139][Applets][153]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][139][Applets][153][Configuration]
-PreloadWeight=36
+PreloadWeight=28
 
 [Containments][139][Configuration]
 PreloadWeight=0
@@ -518,6 +505,18 @@ PreloadWeight=0
 [Containments][139][General]
 extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement
 knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement
+
+[Containments][161]
+activityId=125a8a84-4de9-4869-b70f-d91a278c37bc
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][161][Configuration]
+PreloadWeight=42
 
 [Containments][45]
 activityId=
@@ -611,56 +610,56 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][50][Applets][53][Configuration]
-PreloadWeight=26
+PreloadWeight=2
 
 [Containments][50][Applets][54]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][50][Applets][54][Configuration]
-PreloadWeight=26
+PreloadWeight=2
 
 [Containments][50][Applets][55]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][50][Applets][55][Configuration]
-PreloadWeight=56
+PreloadWeight=32
 
 [Containments][50][Applets][56]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][50][Applets][56][Configuration]
-PreloadWeight=26
+PreloadWeight=2
 
 [Containments][50][Applets][57]
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][50][Applets][57][Configuration]
-PreloadWeight=26
+PreloadWeight=2
 
 [Containments][50][Applets][58]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][50][Applets][58][Configuration]
-PreloadWeight=26
+PreloadWeight=2
 
 [Containments][50][Applets][59]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][50][Applets][59][Configuration]
-PreloadWeight=26
+PreloadWeight=2
 
 [Containments][50][Applets][60]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][50][Applets][60][Configuration]
-PreloadWeight=26
+PreloadWeight=2
 
 [Containments][50][Applets][61]
 immutability=1
@@ -674,21 +673,21 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][50][Applets][62][Configuration]
-PreloadWeight=26
+PreloadWeight=2
 
 [Containments][50][Applets][63]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][50][Applets][63][Configuration]
-PreloadWeight=26
+PreloadWeight=2
 
 [Containments][50][Applets][67]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][50][Applets][67][Configuration]
-PreloadWeight=34
+PreloadWeight=10
 
 [Containments][50][Configuration]
 PreloadWeight=0
@@ -718,6 +717,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][8][Applets][10][Configuration][General]
+muteOsd=false
+raiseMaximumVolume=true
 volumeFeedback=false
 
 [Containments][8][Applets][11]
@@ -739,7 +740,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][8][Applets][13][Configuration]
-PreloadWeight=30
+PreloadWeight=6
 
 [Containments][8][Applets][14]
 immutability=1
@@ -762,6 +763,10 @@ plugin=org.kde.plasma.notifications
 [Containments][8][Applets][15][Configuration]
 PreloadWeight=100
 
+[Containments][8][Applets][15][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][8][Applets][16]
 immutability=1
 plugin=org.kde.plasma.printmanager
@@ -774,11 +779,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=35
+PreloadWeight=86
 
 [Containments][8][Applets][17][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][8][Applets][17][Configuration][General]
+showPercentage=true
 
 [Containments][8][Applets][18]
 immutability=1
@@ -822,7 +830,7 @@ PreloadWeight=0
 extraItems=org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.nightcolorcontrol,Optimus Manager Qt
 hiddenItems=Optimus Manager Qt
 knownItems=org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.nightcolorcontrol
-shownItems=org.kde.plasma.bluetooth
+shownItems=org.kde.plasma.bluetooth,org.kde.plasma.notifications
 
 [Containments][9][Applets][25][Configuration]
 PreloadWeight=18
@@ -879,6 +887,13 @@ plugin=org.kde.plasma.taskmanager
 
 [Containments][92][Applets][95][Configuration]
 PreloadWeight=0
+
+[Containments][92][Applets][95][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][92][Applets][95][Configuration][General]
+showOnlyCurrentActivity=false
 
 [Containments][92][Applets][96]
 immutability=1
@@ -1060,4 +1075,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/$hit.png,0,desktop:/OC.jpg,0,desktop:/notable.desktop,0,desktop:/chrome-ljencpkfbmahjfhepjlnokmmfipcbcld-Default.desktop,0,desktop:/vivaldi-stable.desktop,0,desktop:/sad1.jpg,0,desktop:/steam.desktop,0,desktop:/103300248_1949967745136827_6024507114166301981_n.jpg,0,desktop:/Clover.jpg,0,desktop:/sad2.jpg,0,desktop:/chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default.desktop,0,desktop:/image.jpeg,0,desktop:/icons.png,0,desktop:/Stick Fight The Game.desktop,0,desktop:/tarbia.jpg,0,desktop:/chrome-oejjnpnbcbjnjfjmhdcacjogpgmnonpi-Default.desktop,0,desktop:/War Thunder.desktop,0,desktop:/download.jpeg,0,desktop:/chrome-jgeocpdicgmkeemopbanhokmhcgcflmi-Default.desktop,0,desktop:/discord.desktop,0,desktop:/visual-studio-code.desktop,0,desktop:/chrome-dnmeibhohifbdbeldgdgekinledbnmnm-Default.desktop,0,desktop:/org.kde.dolphin.desktop,0,desktop:/slack.desktop,0,desktop:/2z7zup.jpg,0,desktop:/chrome-cobkclkhjglccpkpnncmillcijihlojc-Default.desktop,0,desktop:/93860344_2643498732549174_5526045527377969152_o.jpg,0,desktop:/hello.png,0,desktop:/9f3bb6cb-721a-4f03-bc8b-03ae4c352c0e.pdf,0
+screenMapping=desktop:0-4.png,0,desktop:0-2.png (1),0,desktop:/org.kde.dolphin.desktop,0,desktop:/notable.desktop,0,desktop:/chrome-cobkclkhjglccpkpnncmillcijihlojc-Default.desktop,0,desktop:/steam.desktop,0,desktop:/$hit.png,0,desktop:/chrome-ljencpkfbmahjfhepjlnokmmfipcbcld-Default.desktop,0,desktop:/OC.jpg,0,desktop:/9f3bb6cb-721a-4f03-bc8b-03ae4c352c0e.pdf,0,desktop:/lerna,0,desktop:/discord.desktop,0,desktop:/halloween.png,0,desktop:/wow.json,0,desktop:0-github-icon-white-6.jpg,0,desktop:0-bcf.png,0,desktop:/Clover.jpg,0,desktop:/chrome-oejjnpnbcbjnjfjmhdcacjogpgmnonpi-Default.desktop,0,desktop:/chrome-jgeocpdicgmkeemopbanhokmhcgcflmi-Default.desktop,0,desktop:0-race.png,0,desktop:0-3.png,0,desktop:/vivaldi-stable.desktop,0,desktop:/93860344_2643498732549174_5526045527377969152_o.jpg,0,desktop:/Stick Fight The Game.desktop,0,desktop:/visual-studio-code.desktop,0,desktop:0-1.png (1),0,desktop:/sad1.jpg,0,desktop:/coligo-birthday.png,0,desktop:/sad2.jpg,0,desktop:/trash:⁄.desktop,0,desktop:/vivaldi-dnmeibhohifbdbeldgdgekinledbnmnm-Default.desktop,0,desktop:0-hello.png (2),0,desktop:/icons.png,0,desktop:/slack.desktop,0

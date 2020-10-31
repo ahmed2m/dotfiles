@@ -67,5 +67,63 @@
     {
         "key": "ctrl+shift+9",
         "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "git.checkout"
+    },
+    {
+        "key": "ctrl+shift+alt+s",
+        "command": "git.stash"
+    },
+    {
+        "key": "ctrl+shift+alt+a",
+        "command": "git.stashApply"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+shift+alt+d",
+        "command": "git.stashDrop"
+    },
+    {
+        "key": "ctrl+shift+d d",
+        "command": "gitlens.diffHeadWith"
+    },
+    {
+        "key": "ctrl+shift+d s",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "-workbench.view.debug"
     }
 ]

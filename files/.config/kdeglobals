@@ -108,8 +108,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=856,592
-History Items[$e]=file:///mnt/E/HAHA/Movies,file:///mnt/D/F/level 4 2019/Second-Semester/MIS/Management Information system,file:///run/media/ahmed/nvme-fun/Games,file:///mnt/E/HAHA,file:$HOME/Downloads/MoeDark,file:$HOME/Downloads/moe-theme-master/kvantum/Moe,file:$HOME/Downloads/moe-theme-master/kvantum,file:///run/media/ahmed/01D5F9587AA52820/OG,file:///mnt/D/vbox,file:///mnt/D,file:$HOME/Music
+DirSelectDialog Size=858,598
+History Items[$e]=file:///mnt/E/HAHA/Series/Silicon Valley (2014),file:///mnt/E/HAHA/Series/Silicon Valley (2014)/S03,file:$HOME/dev/github-story-points,file:$HOME/dev/github-story-points,file:$HOME/dev/github-story-points,file:$HOME/dev/github-story-points/src,file:$HOME/dev/github-story-points,file:///,file:$HOME/dev/redirect,file:$HOME/dev/redirect,file:$HOME/dev/redirect,file:///mnt/E/HAHA/Movies,file:///mnt/D/F/level 4 2019/Second-Semester/MIS/Management Information system,file:///run/media/ahmed/nvme-fun/Games,file:///mnt/E/HAHA,file:$HOME/Downloads/MoeDark,file:$HOME/Downloads/moe-theme-master/kvantum/Moe,file:$HOME/Downloads/moe-theme-master/kvantum,file:///run/media/ahmed/01D5F9587AA52820/OG,file:///mnt/D/vbox,file:///mnt/D,file:$HOME/Music
 
 [Emoticons]
 emoticonsTheme=EmojiOne
@@ -126,7 +126,7 @@ shadeSortColumn=true
 toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=WhiteSur-dark
+Theme=McMojave-circle-dark
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
@@ -153,7 +153,7 @@ Sort by=Name
 Sort directories first=true
 Sort reversed=false
 Speedbar Width=152
-View Style=DetailTree
+View Style=Simple
 
 [KScreen]
 ScaleFactor=1

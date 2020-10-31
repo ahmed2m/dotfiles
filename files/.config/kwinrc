@@ -49,6 +49,9 @@ TabBoxAlternative=false
 [Effect-MagicLamp]
 AnimationDuration=260
 
+[Effect-Magnifier]
+InitialZoom=1.2
+
 [Effect-PresentWindows]
 BorderActivate=9
 BorderActivateAll=9
@@ -88,11 +91,15 @@ LongitudeAuto=31.2852
 NightTemperature=1000
 
 [Plugins]
+blurEnabled=true
+contrastEnabled=false
 coverswitchEnabled=true
 flipswitchEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_squashEnabled=false
 magiclampEnabled=true
+screenedgeEnabled=false
+trackmouseEnabled=true
 windowgeometryEnabled=false
 
 [Script-desktopchangeosd]
